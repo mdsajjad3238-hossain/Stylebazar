@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Style Bazar - Online Fashion Store</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #1f2937;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #374151;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    main {
+      padding: 20px;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+    .product {
+      background: white;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .product img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .product h3 {
+      margin: 10px 0 5px;
+      font-size: 18px;
+    }
+    .product p {
+      margin: 0 0 10px;
+      font-weight: bold;
+    }
+    .product a {
+      display: inline-block;
+      padding: 8px 15px;
+      background-color: #10b981;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    footer {
+      background-color: #1f2937;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Style Bazar</h1>
+    <p>Your One-Stop Online Fashion Store</p>
+  </header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">Contact</a>
+  </nav>
+  <main>
+    <h2>Our Products</h2>
+    <div class="products">
+      <div class="product">
+        <img src="product1.jpg" alt="Product 1">
+        <h3>Stylish Kurti</h3>
+        <p>৳850</p>
+        <a href="https://wa.me/8801644187200?text=I want to order Stylish Kurti">Order on WhatsApp</a>
+      </div>
+      <div class="product">
+        <img src="product2.jpg" alt="Product 2">
+        <h3>Men's Panjabi</h3>
+        <p>৳1,200</p>
+        <a href="https://wa.me/8801644187200?text=I want to order Men's Panjabi">Order on WhatsApp</a>
+      </div>
+      <div class="product">
+        <img src="product3.jpg" alt="Product 3">
+        <h3>Women's Saree</h3>
+        <p>৳1,600</p>
+        <a href="https://wa.me/8801644187200?text=I want to order Women's Saree">Order on WhatsApp</a>
+      </div>
+      <div class="product">
+        <img src="product4.jpg" alt="Product 4">
+        <h3>Casual T-Shirt</h3>
+        <p>৳450</p>
+        <a href="https://wa.me/8801644187200?text=I want to order Casual T-Shirt">Order on WhatsApp</a>
+      </div>
+      <div class="product">
+        <img src="product5.jpg" alt="Product 5">
+        <h3>Trendy Tops</h3>
+        <p>৳700</p>
+        <a href="https://wa.me/8801644187200?text=I want to order Trendy Tops">Order on WhatsApp</a>
+      </div>
+      <div class="product">
+        <img src="product6.jpg" alt="Product 6">
+        <h3>Jeans Pants</h3>
+        <p>৳1,050</p>
+        <a href="https://wa.me/8801644187200?text=I want to order Jeans Pants">Order on WhatsApp</a>
+      </div>
+    </div>
+  </main>
+  <footer>
+    &copy; 2025 Style Bazar. All rights reserved.
+  </footer>
+</body>
+</html>
